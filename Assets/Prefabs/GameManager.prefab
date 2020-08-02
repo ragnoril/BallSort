@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3862810022047608759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3862810022047608757}
+  - component: {fileID: 3862810022047608758}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3862810022047608757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3862810022047608759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3862810022047608758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3862810022047608759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caeb0b34b6f0dff438e39c506079e183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 0
+  IsGameRunning: 0
+  UI: {fileID: 0}
+  TubePrefab: {fileID: 2378455665859505568, guid: 06487412e4f46844d8cea88a77f6ba38,
+    type: 3}
+  BallPrefabs:
+  - {fileID: 8847694451637959418, guid: 7ef5d4dfe94d6f14e86f02b2eeafd1af, type: 3}
+  - {fileID: 8748421437238090324, guid: e8b3d6f3e3ae9eb49b5ba25ad96144a9, type: 3}
+  - {fileID: 4778110928977837591, guid: 9693c7d16d04aea4d8a14703bb0064fa, type: 3}
+  - {fileID: 2355068655583040192, guid: 10b77c80719f9184ba7b4a7c630d4d18, type: 3}
+  - {fileID: 7951915735820234889, guid: 60dcb6e46075c2d468de65e7d06186e3, type: 3}
+  - {fileID: 2432354682840564418, guid: eccd654d17929684f963cb7e8c02fe21, type: 3}
+  - {fileID: 466958782413423432, guid: 811148bc02644b54a98de83d5ce8b4b3, type: 3}
+  - {fileID: 2045403766799505270, guid: 6b2b1f878a602c44bb7dd1f4f17a63bc, type: 3}
+  - {fileID: 410914154067443186, guid: 14ae6a5b7afad3b42b88a62d0c6d929f, type: 3}
+  Tubes: []
+  SelectedTube: {fileID: 0}
+  MinTubeCount: 5
+  MinColorCount: 3
+  MaxTubeCount: 14
+  MaxColorCount: 9
+  AddedTubePerLevel: 5
+  AddedColorPerLevel: 10
+  CurrentTubeCount: 0
+  CurrentColorCount: 0
+  MinLineCount: 5
+  MinCameraSize: 9
